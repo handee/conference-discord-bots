@@ -9,7 +9,7 @@ To get them running you need to install discord.py and follow the instructions f
 
 ## welcomebot
 
-Welcomebot sends a direct message to everyone who joins your channel. I used this to send a bit of "how to Discord" info and also to remind all attendees of the code of conduct.
+Welcomebot sends a direct message to everyone who joins your channel. I used this to send a bit of "how to Discord" info and also to remind all attendees of the code of conduct.  This needs to run continually (so either on a server, or just leave your computer on if you're lazy like me).
 
 ## posterbot
 
@@ -21,6 +21,11 @@ Student presenters submitted posters to us as A1 PDF and I converted these to PN
   
 our posters are in 4 categories (1st, 2nd, 3rd, MSc) and the bot manages to get  the channels in the right categories.
 
+This makes the channels when it first connects to the server so you can run it once then turn it off.
+
 ## photobot
 
 We asked attendees to post a quick intro + image to our introductions-and-bios channel. In order to stitch these together and make an attendees group photo I wanted to download all the pictures... so obviously I wrote a bot rather than do it by hand. Photobot is that bot. It is very hacky - it saves every attachment as discordname.jpg which is stupid given that some of the attachments aren't actually jpgs. It does download all attachments from a channel though so it goes quite a long way to solving the problem (if you do have to rename all the png files after the fact).
+
+This downloads the attachments when it first connects to the server so you can run it once then turn it off.
+
