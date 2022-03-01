@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import csv
 from os import path
 
+#update for 2022
 # we have four poster categories - first 2nd 3rd year and MSc
 
 cats=["1st","2nd","3rd","MSc"]
